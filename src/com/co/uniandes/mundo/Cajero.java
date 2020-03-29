@@ -19,7 +19,7 @@ import com.co.uniandes.modelo.Usuario;
 public class Cajero {
 
 	
-
+	private static Banco banco;	
 	/**
 	 * Programa principal
 	 * 
@@ -29,7 +29,7 @@ public class Cajero {
 	public static void main(String[] args) {
 
 		// crea el banco
-		Banco banco = new Banco();		
+		banco = new Banco();		
 		Usuario u1 = new Usuario("123", "123");
 		u1.agregarCuenta(new Cuenta("1", "clave", 1000000));
 		u1.agregarCuenta(new Cuenta("2", "clave", 250000));
