@@ -1,8 +1,8 @@
 package com.co.uniandes.control;
 
-import ejemplo.cajero.modelo.Banco;
-import ejemplo.cajero.modelo.Cuenta;
-import ejemplo.cajero.modelo.Usuario;
+import com.co.uniandes.modelo.Banco;
+import com.co.uniandes.modelo.Cuenta;
+import com.co.uniandes.modelo.Usuario;
 
 /**
  * Comando usado para listar las cuentas 

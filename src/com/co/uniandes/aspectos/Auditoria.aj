@@ -1,8 +1,7 @@
 package com.co.uniandes.aspectos;
+import com.co.uniandes.modelo.Usuario;
 import com.co.uniandes.mundo.ArchivoAuditoria;
 import com.co.uniandes.mundo.Session;
-
-import ejemplo.cajero.modelo.Usuario;
 
 public aspect Auditoria {
 	

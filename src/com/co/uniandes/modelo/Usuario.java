@@ -1,4 +1,4 @@
-package ejemplo.cajero.modelo;
+package com.co.uniandes.modelo;
 
 import java.util.Collection;
 import java.util.HashMap;

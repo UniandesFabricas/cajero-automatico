@@ -1,4 +1,4 @@
-package ejemplo.cajero.modelo;
+package com.co.uniandes.modelo;
 
 public class Cuenta {
 

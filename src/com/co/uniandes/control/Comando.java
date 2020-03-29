@@ -1,6 +1,6 @@
 package com.co.uniandes.control;
 
-import ejemplo.cajero.modelo.Banco;
+import com.co.uniandes.modelo.Banco;
 
 /**
  * Interfaz usada para permitir agregar y modificar los comandos

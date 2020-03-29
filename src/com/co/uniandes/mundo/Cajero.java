@@ -9,10 +9,9 @@ import com.co.uniandes.control.ComandoConsignar;
 import com.co.uniandes.control.ComandoListarCuentas;
 import com.co.uniandes.control.ComandoRetirar;
 import com.co.uniandes.control.ComandoTransferir;
-
-import ejemplo.cajero.modelo.Banco;
-import ejemplo.cajero.modelo.Cuenta;
-import ejemplo.cajero.modelo.Usuario;
+import com.co.uniandes.modelo.Banco;
+import com.co.uniandes.modelo.Cuenta;
+import com.co.uniandes.modelo.Usuario;
 
 /**
  * Simulador de un Cajero de Banco

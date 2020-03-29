@@ -1,6 +1,6 @@
 package com.co.uniandes.mundo;
 
-import ejemplo.cajero.modelo.Usuario;
+import com.co.uniandes.modelo.Usuario;
 
 public class Session {
 
