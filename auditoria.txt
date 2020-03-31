@@ -1,1 +1,1 @@
-CC: 123 - Operacion:retirar - Monto:44
+Facha: Mon Mar 30 18:43:12 COT 2020 - CC: 123 - Operacion:retirar - Monto:150000

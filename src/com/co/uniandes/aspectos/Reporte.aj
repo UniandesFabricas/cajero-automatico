@@ -3,7 +3,7 @@ import com.co.uniandes.mundo.ArchivoReporte;
 
 public aspect Reporte {
 
-	pointcut operaciones() : call (* ejemplo.cajero.modelo..*(..));
+	pointcut operaciones() : call (* com.co.uniandes.modelo..*(..));
 
 	after()  : operaciones() {
 

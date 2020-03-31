@@ -5,8 +5,8 @@
 	<feature automatic="selected" name="ConsultaSaldo"/>
 	<feature automatic="selected" name="Retiros"/>
 	<feature automatic="selected" name="Reporte"/>
-	<feature name="Transferencias"/>
-	<feature name="Consignaciones"/>
-	<feature manual="selected" name="Auditoria"/>
+	<feature manual="selected" name="Transferencias"/>
+	<feature manual="selected" name="Consignaciones"/>
+	<feature name="Auditoria"/>
 	<feature name="SaldoReducido"/>
 </configuration>

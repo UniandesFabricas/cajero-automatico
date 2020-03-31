@@ -1,11 +1,13 @@
 package com.co.uniandes.aspectos;
+import java.util.Date;
+
 import com.co.uniandes.modelo.Usuario;
 import com.co.uniandes.mundo.ArchivoAuditoria;
 import com.co.uniandes.mundo.Session;
 
 public aspect Auditoria {
 	
-	pointcut auditoria() : call(* ejemplo.cajero.modelo.Cuenta.*(*));
+	pointcut auditoria() : call(* com.co.uniandes.modelo.Cuenta.*(*));
 	
 	after() : auditoria() {
 		
@@ -20,6 +22,8 @@ public aspect Auditoria {
 		
 		
 		StringBuffer auditoria = new StringBuffer();
+		auditoria.append("Facha: "+new Date().toString());
+		auditoria.append(" - ");
 		auditoria.append("CC: "+usuario.getCedula());
 		auditoria.append(" - ");
 		auditoria.append("Operacion:" + operacion);

@@ -2,7 +2,7 @@ import java.lang.reflect.Method;
 
 public aspect SaldoReducido {
 
-	pointcut validarSaldoReducido() : call (* ejemplo.cajero.modelo.Cuenta.retirar(long));
+	pointcut validarSaldoReducido() : call (* com.co.uniandes.modelo.Cuenta.retirar(long));
 
 	before() throws Exception : validarSaldoReducido() {
 
@@ -13,7 +13,7 @@ public aspect SaldoReducido {
 		long saldo = (long) m.invoke(targetObject);
 
 		long diferencia = saldo - valorAretirar;
-//			System.out.println("Diferencia: " + diferencia);
+			System.out.println("Diferencia: " + diferencia);
 		if ((diferencia) < 200000) {
 			throw new Exception("Saldo Reducido. no puede ser menor a $200.000");
 		}
